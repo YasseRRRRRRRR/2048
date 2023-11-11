@@ -19,9 +19,9 @@ while not gameOver:
     elif move == "6":
         board = merge_right(board) 
     elif move == "8":
-        board == merge_up(board)
+        board = merge_up(board)
     elif move == "4":
-        board == merge_left(board)
+        board = merge_left(board)
     elif move == "q":
         gameOver = True
         print("fair enough")
